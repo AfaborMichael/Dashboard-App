@@ -1,0 +1,399 @@
+ body{
+    margin: 0;
+} 
+
+
+.body{
+    display: flex;
+    height:675px;
+    width: 100%;
+    flex-direction: row;
+    
+   
+    
+}
+
+
+.LC{
+    
+    flex:0 0 20%;
+    background-color: #2d3436; 
+    color: aliceblue;
+    padding-left: 10px;
+    
+}
+
+
+
+.LC-CHILDREN{
+    display: flex;
+    align-items: center;
+    height: 43px;
+   
+    
+}
+
+.LC-CHILDREN2{
+    display: flex;
+    align-items: center;
+    height: 43px;
+    border-bottom: 1px solid #8395a7 ;
+    
+}
+.Lc-space{
+    padding-left: 10px;
+}
+
+
+.LC-CHILDREN1{
+   background-color:  #2d3436;
+    height: 55px;
+    font-weight: bolder;
+   
+}
+
+.RC{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    flex-shrink: 0;
+    flex-grow: 1; 
+    background-color: #f1f2f6;
+  
+    
+    
+    
+}
+
+
+
+.RC-CHILDREN1{
+  
+    
+    height: 20px; 
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    padding-left: 17px;
+    padding-top: 17px;
+    margin-bottom: 12px;
+   
+    
+}
+.first-row{
+    display: flex;
+    height: 100px;
+    
+    align-items: center;
+    justify-content:space-between;
+     
+}
+
+.RC-CHILDREN3{
+   display: flex;
+   flex-basis: 32%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100px;
+    background-color: #ffffff; 
+    margin-left: 12px;
+    padding-left: 10px;
+    
+}
+
+.student{
+    background-color: #ff6348;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #f1f2f6;
+}
+.students{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: normal;
+    
+}
+.teacher{
+    background-color: #10ac84;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #f1f2f6;
+}
+.teachers{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: normal;
+
+}
+.track{
+    background-color: #2e86de;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: normal;
+    color: #f1f2f6;
+}
+.tracks{
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: normal;
+}
+.Sd{
+    /* border: 1px solid tomato; */
+    padding: 4px;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 12px;
+}
+
+table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 12px;
+   
+}
+.th{
+    font-weight: bold;
+    background-color: #576574;
+}
+table td{
+    padding: 5px;
+}
+
+.thead{
+    padding: 11.5px;
+}
+
+
+table tr:hover{
+    background-color: #ccc;
+    
+ }
+
+table td:hover{
+    background-color: #aaa;
+}
+.Lc-m a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+@media(max-width:425px){
+    body{
+   
+        background-color: #c7ecee;
+        /* margin: 0;
+        padding: 0 ; */
+/*         height: 1330px; */
+        height: auto;
+        
+        /* max-width: 425px; */
+     } 
+     
+     
+     .body{
+         display: flex;
+         height: 1330px;
+/*          height: auto; */
+         flex-shrink: 1;
+         flex-grow: 0;
+         flex-direction: row;
+        
+         /* margin-top: 30px; */
+     }
+     
+     .LC{
+         display: flex;
+         flex-basis:5%;
+         flex-direction: row;
+         flex-shrink: 1;
+         flex-grow: 0;
+         background-color: #2d3436; 
+         color: aliceblue;
+         padding-left: 10px;
+         /* border: 1px solid yellow; */
+         /* padding: 0; */
+
+         
+     }
+     
+     .Lc-m{
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid green; */
+        
+
+     } 
+     
+     .LC-CHILDREN{
+         display: flex;
+         flex-basis: 30%;
+         align-items: center;
+         /* height: 43px; */
+         /* border: 1px solid red; */
+        
+         
+     }
+     
+     .LC-CHILDREN2{
+         display: flex;
+         flex-basis: 30%;
+         align-items: center;
+         height: 43px;
+         border-bottom: 1px solid #8395a7 ;
+         
+     }
+     .Lc-space{
+         padding-left: 10px;
+     }
+     
+     
+     .LC-CHILDREN1{
+        background-color:  #2d3436;
+         height: 55px;
+         font-weight: bolder;
+         padding-top: 10px;
+        
+     }
+    
+    .RC{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 70%;
+        flex-shrink: 0;
+        flex-grow: 1; 
+        background-color: #f1f2f6;
+      
+        
+        
+        
+    }
+    
+    
+    
+    .RC-CHILDREN1{
+      
+        
+        height: 20px; 
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+        padding-left: 17px;
+        padding-top: 17px;
+        margin-bottom: 12px;
+       
+        
+    }
+    .first-row{
+        display: flex;
+        height: 100px;
+        
+        align-items: center;
+        justify-content:space-evenly;
+         
+    }
+    
+    .RC-CHILDREN3{
+       display: flex;
+       flex-basis: 32%;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 100px;
+        background-color: #ffffff; 
+        /* margin-left: 12px;
+        padding-left: 10px;
+         */
+    }
+    
+    .student{
+        background-color: #ff6348;
+        font-size: 20px;
+        font-weight: bolder;
+        font-style: normal;
+        color: #f1f2f6;
+    }
+    .students{
+        font-size: 50px;
+        font-weight: bolder;
+        font-style: normal;
+        
+    }
+    .teacher{
+        background-color: #10ac84;
+        font-size: 20px;
+        font-weight: bolder;
+        font-style: normal;
+        color: #f1f2f6;
+    }
+    .teachers{
+        font-size: 50px;
+        font-weight: bolder;
+        font-style: normal;
+    
+    }
+    .track{
+        background-color: #2e86de;
+        font-size: 20px;
+        font-weight: bolder;
+        font-style: normal;
+        color: #f1f2f6;
+      padding-right: 10px;
+        margin-right: 10px;
+    }
+    .tracks{
+        font-size: 50px;
+        font-weight: bolder;
+        font-style: normal;
+    }
+    .Sd{
+        padding: 4px;
+        font-weight: bolder;
+        font-style: normal;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 12px;
+    }
+    
+    table{
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        text-align: center;
+        margin-left: 12px;
+       margin-right: 12px;
+      height: auto;
+       
+    }
+    .th{
+        font-weight: bold;
+        background-color: #576574;
+    }
+    table td{
+        padding: 5px;
+    }
+    
+    .thead{
+        padding: 11.5px;
+    }
+    
+    
+    table tr:hover{
+        background-color: #ccc;
+        
+     }
+    
+    table td:hover{
+        background-color: #aaa;
+    }
+    .Lc-m a {
+        text-decoration: none;
+        color: aliceblue;
+    }
+}
+
+
+
+

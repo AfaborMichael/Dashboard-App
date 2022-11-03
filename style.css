@@ -1,0 +1,577 @@
+ body{
+   
+   background-color: #c7ecee;
+   margin: 0;
+} 
+
+
+.body{
+    display: flex;
+    height: 665px;
+    flex-direction: row;
+   
+    /* margin-top: 30px; */
+}
+
+.LC{
+    
+    flex:0 0 20%;
+    background-color: #2d3436; 
+    color: aliceblue;
+    padding-left: 10px;
+    
+}
+
+
+
+.LC-CHILDREN{
+    display: flex;
+    align-items: center;
+    height: 43px;
+   
+    
+}
+
+.LC-CHILDREN2{
+    display: flex;
+    align-items: center;
+    height: 43px;
+    border-bottom: 1px solid #8395a7 ;
+    
+}
+.Lc-space{
+    padding-left: 10px;
+}
+
+
+.LC-CHILDREN1{
+   background-color:  #2d3436;
+    height: 55px;
+    font-weight: bolder;
+   
+}
+
+.RC{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    flex-shrink: 0;
+    flex-grow: 1; 
+    background-color: #f1f2f6;
+  
+    
+    
+    
+}
+
+
+
+.RC-CHILDREN1{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;    
+}
+
+.Rc-word{
+    height: 60px; 
+    padding-left: 17px;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    flex-basis: 80%;
+    flex-grow: 1;
+
+}
+.RC-image{ 
+    display: flex;
+    flex-basis: 20%;
+    flex-shrink: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+.Rc-pic{
+    display: inline-block;
+    background-image: url('pics/face.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 45px;
+    border-radius: 100%;
+
+}
+
+
+.first-row{
+    display: flex;
+    height: 150px;
+    background-color: #f1f2f6;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+.second-row{
+    display: flex;
+    height: 170px;
+    background-color: #f1f2f6;
+    align-items: center; 
+    justify-content: space-evenly; 
+}
+
+.RC-CHILDREN3{
+   display: flex;
+   flex-basis: 23%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    background-color: #ffffff; 
+    
+}
+.RC-CHILDREN4{
+    display: flex;
+    flex-basis: 23%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; 
+    text-align: center;
+    height: 150px;
+}
+ 
+.RC-CHILDREN2{
+    
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 60px; 
+   
+    
+}
+
+.search-box{
+
+    border-radius: 5px;
+
+}
+
+ 
+.search-txt-input{
+    width: 912px;
+    line-height: 40px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    color: black;
+    background-color: #ffffff; 
+    transition: 0.4s;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.search-btn{
+    width: 40px;
+    height: 40px;
+    color: rgb(0, 0, 0); ;
+    border-radius: 50%;
+}
+
+.students{
+    display: inline-block; 
+    background-image: url('pics/mstudents.png');
+    width: 70px;
+    height: 70px;
+    
+    border-radius: 30% 30% 30% 30%;
+    background-position: center;
+    background-size: contain;
+      
+}
+.teachers{
+    display: inline-block; 
+    background-image: url('pics/teacher.png');
+    width: 70px;
+    height: 70px;
+    
+    border-radius: 30% 30% 30% 30%;
+    background-position: cover;
+    background-size: contain;
+      
+}.tracks{
+    display: inline-block; 
+     background-image: url('pics/tracks2.png');
+    width: 70px;
+    height: 70px;
+
+    border-radius: 30% 30% 30% 30%;
+    background-position: center;
+    background-size: contain;
+      
+}.attendance{
+    display: inline-block; 
+     background-image: url('pics/attendance2.png');
+    width: 70px;
+    height: 70px;
+   
+    border-radius: 30% 30% 30% 30%;
+    background-position: center;
+    background-size: contain;
+      
+}
+
+.Timetable{
+    display: block; 
+     background-image: url('pics/timetable.png');
+    width: 70px;
+    height: 70px;
+  
+    border-radius: 30% 30% 30% 30%;
+    background-position: center;
+    background-size: contain;
+      
+}
+.Calendar{
+    display: block; 
+     background-image: url('pics/calendar.png');
+    width: 70px;
+    height: 70px;
+ 
+    border-radius: 30% 30% 30% 30%;
+    background-position: center;
+    background-size: contain;
+      
+}
+.Homework{
+    display: block; 
+     background-image: url('pics/homework.png');
+    width: 70px;
+    height: 70px;
+   
+    border-radius: 30% 30% 30% 30%;
+    background-position: center;
+    background-size: contain;
+      
+
+}
+.Settings{
+    display: block; 
+     background-image: url('pics/settings2.png');
+    width: 70px;
+    height: 70px;
+   
+    border-radius: 30% 30% 30% 30%;
+    background-position: center;
+    background-size: contain;
+      
+}
+
+.Lc-m a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.RC a{
+    text-decoration: none;
+    color: initial; 
+}
+
+
+@media(max-width:425px){
+    body{
+   
+        background-color: #c7ecee;
+        height: auto;
+     } 
+     
+     
+     .body{
+         display: flex;
+         height: auto;
+         flex-shrink: 1;
+         flex-grow: 0;
+         flex-direction: row;
+     }
+     
+     .LC{
+         display: flex;
+         flex-basis:5%;
+         flex-direction: row;
+         flex-shrink: 1;
+         flex-grow: 0;
+         background-color: #2d3436; 
+         color: aliceblue;
+         padding-left: 10px;
+         
+     }
+     
+     .Lc-m{
+        display: flex;
+        flex-direction: column;
+        
+
+     } 
+     
+     .LC-CHILDREN{
+         display: flex;
+         flex-basis: 30%;
+         align-items: center;
+        
+         
+     }
+     
+     .LC-CHILDREN2{
+         display: flex;
+         flex-basis: 30%;
+         align-items: center;
+         height: 43px;
+         border-bottom: 1px solid #8395a7 ;
+         
+     }
+     .Lc-space{
+         padding-left: 10px;
+     }
+     
+     
+     .LC-CHILDREN1{
+        background-color:  #2d3436;
+         height: 55px;
+         font-weight: bolder;
+         padding-top: 10px;
+        
+     }
+     
+     .RC{
+         display: flex;
+         flex-direction: column;
+         flex-basis: 60%;
+         flex-grow: 1;  
+         background-color: #f1f2f6; 
+         
+     }
+     
+     
+     
+     .RC-CHILDREN1{
+         display: flex;
+         background-color: #ffffff;    
+     }
+     
+     .Rc-word{
+         height: 60px; 
+         padding-top: 10px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-weight: 400;
+         flex-basis: 70%;
+         flex-grow: 0;
+         flex-shrink: 0;
+     }
+     .RC-image{ 
+         display: flex;
+         flex-basis: 30%;
+         flex-shrink: 1;
+         flex-grow: 1;
+         align-items: center;
+         justify-content: center;
+     
+     }
+     .Rc-pic{
+         display: inline-block;
+         background-image: url('pics/face.jpg'); 
+         background-position: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         width: 50px;
+         height: 45px;
+         border-radius: 100%;
+     
+     }
+     
+     
+     .first-row{
+         display: flex;
+         height: auto;
+         flex-basis: 32%;
+         flex-direction: column;
+         background-color: #f1f2f6;
+         align-items: center;
+         justify-content: space-between; 
+     }
+     .second-row{
+         display: flex;
+         flex-basis: 32%;
+         flex-direction: column;
+         height: auto;
+         background-color: #f1f2f6;
+         align-items: center; 
+         justify-content: space-evenly; 
+     }
+     
+     .RC-CHILDREN3{
+        display: flex;
+        flex-basis: 25%;
+        width: 200px;
+        margin: 5px;
+         justify-content: center;
+         align-items: center;
+         background-color: #ffffff; 
+      
+         
+     }
+     .RC-CHILDREN4{
+         display: flex;
+         flex-basis: 25%;
+         width: 200px;
+        margin: 5px;
+         justify-content: center;
+         align-items: center;
+         background-color: #ffffff; 
+         text-align: center;
+     }
+      
+     .RC-CHILDREN2{
+         
+     
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         align-items: center;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         height: 60px; 
+        
+         
+     }
+     
+     .search-box{
+     
+         border-radius: 5px;
+     
+     }
+     
+      
+     .search-txt-input{
+         width: auto;
+         line-height: 40px;
+         border: none;
+         outline: none;
+         background: none;
+         padding: 0;
+         color: black;
+         background-color: #ffffff; 
+         transition: 0.4s;
+         border-radius: 5px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         
+     }
+     
+     .search-btn{
+         width: 40px;
+         height: 40px;
+         color: rgb(0, 0, 0); ;
+         border-radius: 50%;
+     }
+     
+     .students{
+         display: flex; 
+         flex-basis: 50%;
+         background-image: url('pics/mstudents.png');
+         width: 70px;
+         height: 70px;
+         background-repeat: no-repeat;
+         border-radius: 30% 30% 30% 30%;
+         background-position: center;
+         background-size: contain;
+           
+     }
+     .teachers{
+         display: inline-block; 
+         background-image: url('pics/teacher.png');
+         width: 70px;
+         height: 70px;
+         
+         border-radius: 30% 30% 30% 30%;
+         background-position: cover;
+         background-size: contain;
+           
+     }.tracks{
+         display: inline-block; 
+          background-image: url('pics/tracks2.png');
+         width: 70px;
+         height: 70px;
+     
+         border-radius: 30% 30% 30% 30%;
+         background-position: center;
+         background-size: contain;
+           
+     }.attendance{
+         display: inline-block; 
+          background-image: url('pics/attendance2.png');
+         width: 70px;
+         height: 70px;
+        
+         border-radius: 30% 30% 30% 30%;
+         background-position: center;
+         background-size: contain;
+           
+     }
+     
+     .Timetable{
+         display: block; 
+          background-image: url('pics/timetable.png');
+         width: 70px;
+         height: 70px;
+       
+         border-radius: 30% 30% 30% 30%;
+         background-position: center;
+         background-size: contain;
+           
+     }
+     .Calendar{
+         display: block; 
+          background-image: url('pics/calendar.png');
+         width: 70px;
+         height: 70px;
+      
+         border-radius: 30% 30% 30% 30%;
+         background-position: center;
+         background-size: contain;
+           
+     }
+     .Homework{
+         display: block; 
+          background-image: url('pics/homework.png');
+         width: 70px;
+         height: 70px;
+        
+         border-radius: 30% 30% 30% 30%;
+         background-position: center;
+         background-size: contain;
+           
+     
+     }
+     .Settings{
+         display: block; 
+          background-image: url('pics/settings2.png');
+         width: 70px;
+         height: 70px;
+        
+         border-radius: 30% 30% 30% 30%;
+         background-position: center;
+         background-size: contain;
+           
+     }
+     
+     .Lc-m a {
+         text-decoration: none;
+         color: aliceblue;
+     }
+     
+     .RC a{
+         text-decoration: none;
+         color: initial; 
+     } 
+}
+
